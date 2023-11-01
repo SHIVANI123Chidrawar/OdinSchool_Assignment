@@ -31,7 +31,8 @@ async function SaveData(Data) {
         setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
         
       }
-      });  
+      }); 
+
 }
 
 // Function to hide the loader
@@ -100,10 +101,3 @@ const searchfun = ()=>{
 
   
 }
-
-
-// var array = [1,2,3,4,5]
-//    var myName = array.map(_name =>({
-//     _name  1
-// }))
-// console.log(myName)
